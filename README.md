@@ -14,6 +14,7 @@ To begin using this project:
 5. Build and deploy.
 6. The application should deploy, but it will not function correctly since there is no database connected at this point.
 7. Explore the code to understand what's been given to you.
+8. Making a small update to test git/intellij spring 2023. Ignore this :) 
 
 
 ## Next Steps
