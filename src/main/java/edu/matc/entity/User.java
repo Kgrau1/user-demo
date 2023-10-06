@@ -1,18 +1,42 @@
 package edu.matc.entity;
 
-// TODO Add instance variable for the date of birth
-// TODO Add a calculation for the user's age. Age should not be stored, it should be calculated only.
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * A class to represent a user.
  *
  * @author pwaite
  */
+@Entity(name = "User")
+@Table(name = "users") // case sensitive!
 public class User {
+    @Column(name = "first_name")
     private String firstName;
+
+    @Column(name = "last_name")
     private String lastName;
+
+    @Column(name = "user_name")
     private String userName;
+
+    // Every Entity must have a unique identifier which is annotated @Id
+    // Notice there is no @Column here as the column and instance variable name are the same
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
+    @GenericGenerator(name = "native", strategy = "native")
     private int id;
+
+    @Column(name = "date_of_birth")
+    private LocalDate dateOfBirth;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Order> orders = new HashSet<>();
 
 
     /**
@@ -27,13 +51,13 @@ public class User {
      * @param firstName the first name
      * @param lastName  the last name
      * @param userName  the user name
-     * @param id        the id
+     * @param dateOfBirth the user's date of birth
      */
-    public User(String firstName, String lastName, String userName, int id) {
+    public User(String firstName, String lastName, String userName, LocalDate dateOfBirth) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.userName = userName;
-        this.id = id;
+        this.dateOfBirth = dateOfBirth;
     }
 
 
@@ -100,6 +124,7 @@ public class User {
         return id;
     }
 
+
     /**
      * Sets id.
      *
@@ -109,12 +134,81 @@ public class User {
         this.id = id;
     }
 
+    /**
+     * Gets date of birth.
+     *
+     * @return the date of birth
+     */
+    public LocalDate getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    /**
+     * Sets date of birth.
+     *
+     * @param dateOfBirth the date of birth
+     */
+    public void setDateOfBirth(LocalDate dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    /**
+     * Gets age.
+     *
+     * @return the age
+     */
+    public int getAge() {
+
+        return (int)ChronoUnit.YEARS.between(dateOfBirth, LocalDate.now());
+    }
+
+    /**
+     * Gets orders.
+     *
+     * @return the orders
+     */
+    public Set<Order> getOrders() {
+        return orders;
+    }
+
+    /**
+     * Sets orders.
+     *
+     * @param orders the orders
+     */
+    public void setOrders(Set<Order> orders) {
+        this.orders = orders;
+    }
+
+    /**
+     * Add order.
+     *
+     * @param order the order
+     */
+    public void addOrder(Order order) {
+        orders.add(order);
+        order.setUser(this);
+    }
+
+    /**
+     * Remove order.
+     *
+     * @param order the order
+     */
+    public void removeOrder(Order order) {
+        orders.remove(order);
+        order.setUser(null);
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", userName='" + userName + '\'' +
+                ", id=" + id +
+                ", dateOfBirth=" + dateOfBirth +
+                ", age=" + getAge() +
                 '}';
     }
 

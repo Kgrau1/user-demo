@@ -1,0 +1,140 @@
+[DEBUG] 2023-10-03 13:14:36.600 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-03 13:14:36.635 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-03 13:14:36.779 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-03 13:14:36.802 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-03 13:14:36.846 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-03 13:14:49.008 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-03 13:14:49.036 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-03 13:14:49.185 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-03 13:14:49.206 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-03 13:14:49.244 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-03 13:21:29.026 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-03 13:21:29.076 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-03 13:21:29.239 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-03 13:21:29.259 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-03 13:21:29.299 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-03 13:23:22.280 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-03 13:23:22.309 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-03 13:23:22.459 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-03 13:23:22.480 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-03 13:23:22.518 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-03 13:34:35.066 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-03 13:34:35.093 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-03 13:34:35.284 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-03 13:34:35.304 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-03 13:34:35.342 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-03 13:56:10.865 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-03 13:56:10.898 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-03 13:56:11.039 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-03 13:56:11.062 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-03 13:56:11.104 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-03 13:56:22.826 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-03 13:56:22.854 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-03 13:56:23.005 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-03 13:56:23.026 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-03 13:56:23.065 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-03 14:01:53.324 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-03 14:01:53.353 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-03 14:01:53.537 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-03 14:01:53.557 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-03 14:01:53.596 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-03 14:26:43.963 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-03 14:26:43.991 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-03 14:26:44.197 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-03 14:26:44.217 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-03 14:26:44.255 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-04 09:54:07.386 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-04 09:54:37.746 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-04 09:57:09.098 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-04 09:57:39.358 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-04 09:58:39.859 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-04 20:13:08.896 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-04 20:13:08.917 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-04 20:13:08.966 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-04 20:13:08.978 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-04 20:13:08.994 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-04 20:24:17.475 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-04 20:24:17.499 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-04 20:24:17.585 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-04 20:24:17.596 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-04 20:24:17.614 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-04 20:27:47.230 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-04 20:27:47.252 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-04 20:27:47.328 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-04 20:27:47.340 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-04 20:27:47.366 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-04 20:29:32.270 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-04 20:29:32.292 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-04 20:29:32.374 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-04 20:29:32.385 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-04 20:29:32.415 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-04 20:32:14.143 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-04 20:32:14.168 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-04 20:32:14.259 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-04 20:32:14.273 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-04 20:32:14.297 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-04 20:32:36.064 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-04 20:32:36.084 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-04 20:32:36.178 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-04 20:32:36.189 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-04 20:32:36.208 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-04 20:47:17.425 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-04 20:47:17.450 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-04 20:47:17.540 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-04 20:47:17.553 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-04 20:47:17.576 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-04 20:47:30.221 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-04 20:47:30.238 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-04 20:47:30.335 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-04 20:47:30.345 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-04 20:47:30.367 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-04 20:54:59.473 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-04 20:54:59.499 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-04 20:54:59.587 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-04 20:54:59.600 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-04 20:54:59.625 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-05 13:00:19.101 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-05 13:00:19.130 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-05 13:00:19.225 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-05 13:00:19.239 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-05 13:00:19.265 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-05 13:02:58.505 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-05 13:02:58.525 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-05 13:02:58.625 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-05 13:02:58.637 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-05 13:02:58.659 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-05 13:05:40.218 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-05 13:05:40.238 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-05 13:05:40.340 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-05 13:05:40.351 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-05 13:05:40.380 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-05 13:12:19.487 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-05 13:12:19.513 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-05 13:12:19.603 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-05 13:12:19.616 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-05 13:12:19.642 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-05 13:25:42.891 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-05 13:25:42.918 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-05 13:25:43.010 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-05 13:25:43.023 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-05 13:25:43.048 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-05 13:26:02.995 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-05 13:26:03.022 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-05 13:26:03.115 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-05 13:26:03.130 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-05 13:26:03.156 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-05 13:26:46.371 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-05 13:26:46.397 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-05 13:26:46.487 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-05 13:26:46.499 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-05 13:26:46.523 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-05 13:31:20.717 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-05 13:31:20.742 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-05 13:31:20.839 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-05 13:31:20.854 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-05 13:31:20.879 [main] UserDao - Searching for: c
+[DEBUG] 2023-10-05 13:31:40.282 [main] OrderDao - Searching for order with description = Books
+[DEBUG] 2023-10-05 13:31:40.307 [main] OrderDao - Searching for order with description = b
+[DEBUG] 2023-10-05 13:31:40.399 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2023-10-05 13:31:40.413 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2023-10-05 13:31:40.437 [main] UserDao - Searching for: c
