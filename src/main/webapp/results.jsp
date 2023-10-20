@@ -1,41 +1,53 @@
+<%@ page language="java" contentType="text/html;
+charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@include file="head.jsp"%>
-<c:set var = "title" value = "Search Results"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
 <%@include file="head.jsp"%>
 
-<script type="text/javascript" class="init">
-    $(document).ready(function () {
-       $('#userTable').DataTable();
-    });
-</script>
 <html><body>
 
-<div class="container-fluid">
-    <h2>Search Results: </h2>
-    <table id="userTable" class="display" cellpadding="0" width="100%">
-        <thead>
-        <th>Name</th>
-        <th>Username</th>
-        <th>Age</th>
-        <th>Orders</th>
-        </thead>
-        <tbody>
-            <c:forEach var="user" items="${user}">
+<div class="container">
+    <section class="">
+        <a href="index.jsp">Home</a>
+        <h2>Search Results: </h2>
+
+        <c:if test="${not search.employeesFound}">
+            <h2>No Employees Found</h2>
+        </c:if>
+        <c:if test="${search.employeesFound}">
+            <c:forEach items="${search.employees}" var="employee">
+                <table class="table table-dark table-striped m-3 w-50">
+                <tbody>
                 <tr>
-                    <td>${user.firstName} ${user.lastName}</td>
-                    <td>${user.userName}</td>
-                    <td>${user.age}</td>
-                    <td>
-                        <c:forEach var="order" items="${user.orders}">
-                            ${order.id} ${order.description} <br/>
-                        </c:forEach>
-                    </td>
+                    <th>First Name:</th>
+                    <td><c:out value="${employee.firstName}"/></td>
+                </tr>
+                <tr>
+                    <th>Last Name:</th>
+                    <td><c:out value="${employee.lastName}"/></td>
+                </tr>
+                <tr>
+                    <th>Username:</th>
+                    <td><c:out value="${employee.userName}"/></td>
+                </tr>
+                <tr>
+                    <th>Date of birth:</th>
+                    <td><c:out value="${employee.dateOfBirth}"/></td>
+                </tr>
+                <tr>
+                    <th>Age:</th>
+                    <td><c:out value="${employee.age}"/></td>
                 </tr>
             </c:forEach>
-        </tbody>
-    </table>
-    ${users}
+            </tbody>
+            </table>
+        </c:if>
+    </section>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </body>
 </html>
